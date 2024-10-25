@@ -1,5 +1,5 @@
 p {
-    color: blue;
+    color: blue !important; 
     }
     /* Estilo por clase */
     .container p {
@@ -9,3 +9,4 @@ p {
     #parrafo {
     color: red;
     }
+
