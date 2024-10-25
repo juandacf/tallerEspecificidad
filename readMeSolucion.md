@@ -13,6 +13,6 @@ Parte 2: Ejemplos Prácticos
 1. Ejemplo básico: Demuestra como los diferentes selectores afectan la especificidad
    ![alt text] ()
 
-   En este ejemplo, el texto
+   ![alt text](https://github.com/juandacf/tallerEspecificidad/blob/main/media/1ejemploBasico.jpg)
 
 Referencias: 1.https://developer.mozilla.org/es/docs/Web/CSS/Specificity 2.https://dev.to/lupitacode/especificidad-en-css-que-es-y-como-funciona-52k6
