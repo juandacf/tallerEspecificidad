@@ -49,7 +49,7 @@ Parte 4: Desafío Final
 
 Dales a los participantes un archivo HTML con múltiples elementos y clases, y pídeles que agreguen estilos CSS para lograr un diseño específico. Deberán aplicar todo lo aprendido sobre especificidad para resolver los conflictos y obtener el resultado correcto.
 
-Desario CSS:
+Desafio CSS:
 
 El h1 en el .header debe ser de color blanco.
 El texto del p en .content debe ser rojo.
