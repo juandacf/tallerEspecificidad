@@ -18,4 +18,49 @@ Parte 2: Ejemplos Prácticos
 2. Demostración de !important
    ![alt text](https://github.com/juandacf/tallerEspecificidad/blob/main/media/demostracionImportant.jpg)
 
-Referencias: 1.https://developer.mozilla.org/es/docs/Web/CSS/Specificity 2.https://dev.to/lupitacode/especificidad-en-css-que-es-y-como-funciona-52k6
+   R/ En este caso, el color del texto es azul porque el !important se sobrepone a cualquier elemento.
+
+Parte 3: Ejercicios Prácticos
+
+Ejercicio 1: Calculando la Especificidad
+
+Dado el siguiente código, pide a los participantes que calculen la especificidad y determinen qué estilos se aplicarán:
+
+![alt text](https://github.com/juandacf/tallerEspecificidad/blob/main/media/ejercicio1CalculandoEspecificidad.jpg)
+
+En este caso, la especificidad del selector h1 es (0,0,1), la de .content h1 es (0,1,1) y la de #main h1 es (1,0,1).
+
+¿Qué color tendrá el título h1?
+R/ Ya que el valor de especificidad más grande es el de #main h1, se aplicará el color rojo:
+
+![alt text](https://github.com/juandacf/tallerEspecificidad/blob/main/media/ceResuelto.jpg)
+
+Ejercicio 2: Resolviendo Conflictos de Especificidad
+
+Modifica el siguiente código para que el párrafo tenga color amarillo, sin usar !important.
+
+![alt text](https://github.com/juandacf/tallerEspecificidad/blob/main/media/ejercicio2Conflictos.jpg)
+
+Para lograr que el párrafo tenga color amarillo, se usó como selector #box .text porque el un selector de ID tiene un valor de especificidad más alto que uno de clase, como se muestra en la siguiente imagen:
+
+![alt text](https://github.com/juandacf/tallerEspecificidad/blob/main/media/ejercicio2Resuelto.jpg)
+
+Parte 4: Desafío Final
+
+Dales a los participantes un archivo HTML con múltiples elementos y clases, y pídeles que agreguen estilos CSS para lograr un diseño específico. Deberán aplicar todo lo aprendido sobre especificidad para resolver los conflictos y obtener el resultado correcto.
+
+Desario CSS:
+
+El h1 en el .header debe ser de color blanco.
+El texto del p en .content debe ser rojo.
+El texto del footer debe ser gris.
+
+Para la solución de este ejercicio, se utilizaron los siguientes selectores:
+
+![alt text](https://github.com/juandacf/tallerEspecificidad/blob/main/media/ejercicioFinal.jpg)
+
+Referencias:
+
+1.https://developer.mozilla.org/es/docs/Web/CSS/Specificity
+
+2.https://dev.to/lupitacode/especificidad-en-css-que-es-y-como-funciona-52k6
